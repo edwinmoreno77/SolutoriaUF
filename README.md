@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1.- Consumir una API y generar un token de consulta. Para ello, dirígete a https://postulaciones.solutoria.cl/index.html y ve a la sección "Token". Debes solicitar un token utilizando el método POST en /api/acceso. Tus credenciales para solicitar el token son las siguientes:
+{
+"userName": "@usuario",
+"flagJson": true
+}
 
-## Getting Started
+2.- Con el token creado, debes importar la información histórica de la UF desde la API a una base de datos de tu elección. La información se encuentra en /api/indicadores.
 
-First, run the development server:
+3.- Crea un CRUD (Create, Read, Update, Delete) de los datos importados en la base de datos que hayas utilizado. El CRUD debe implementarse utilizando cualquier framework de React y axios.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+4.- Crea un gráfico que muestre los datos importados, y agrega un filtro de fecha que permita visualizar los datos en un rango específico.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tus compañeros evaluarán tu tarea, y si le dedicas un poco de cariño, tendrás una mejor evaluación.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Tiempo estimado para completar la tarea: 3 a 5 horas.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Debes realizar la tarea descrita, subirla a un repositorio público de Git que sea de tu propiedad y enviarnos la URL del repositorio a postulaciones@solutoria.help. El asunto del correo debe ser "TAREA DESARROLLADOR REACT". Te responderemos en un plazo máximo de 5 días hábiles después de que hayas enviado la tarea (generalmente, respondemos al día siguiente).
